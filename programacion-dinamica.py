@@ -23,4 +23,13 @@ for i in range(1, n + 1):
                 dp[i][j] = dp[i - 1][j]
         else:
             dp[i][j] = dp[i - 1][j]
-            
+ # Mostrar resultados
+    print("")
+    print("================================")
+    print("RESULTADO FINAL")
+    print("================================")
+    print(f"Valor máximo obtenido: {dp[n][capacidad]}")
+
+# Ejecutar función
+if __name__ == "__main__":
+    mochila_programacion_dinamica()           
